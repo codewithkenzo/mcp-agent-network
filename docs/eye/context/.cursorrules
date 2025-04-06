@@ -7,12 +7,15 @@
 - Use clear namespaces for different components
 - Implement clean separation between layers
 - Follow modular design principles
+- Include proper logging in all components
+- Provide clear status reporting for connections and operations
 
 ### Development Workflow
 - Set up foundation first, then build on top
 - Add MCP connection after foundation is ready
 - Use test-driven development for core features
 - Clean up test code after features are stable
+- Commit regularly with descriptive messages
 
 ### Dependencies
 - Use UV for Python environment management
@@ -24,6 +27,8 @@
 - Avoid unnecessary side quests
 - Keep the architecture modular
 - Ensure each component has a clear purpose
+- Include progress indicators for resource-intensive operations
+- Avoid placeholders or simulations that could confuse users
 
 ## Technology Stack Notes
 
@@ -31,6 +36,7 @@
 - Fast-agent.ai is used for MCP client and connection
 - MCP servers sourced from glama and smithery
 - All agent communications follow MCP protocol standards
+- Include proper connection status reporting and metrics
 
 ### Upsonic Framework
 - Used for orchestration, workflows, memory, knowledge
@@ -42,12 +48,21 @@
 - Browser-tools-mcp for MCP compatibility
 
 ## Important Development Paths
-- foundation → MCP connection → features
+- foundation → MCP connection → Upsonic orchestration → features
 - Keep each layer complete before moving to the next
 - Maintain thorough testing throughout
+
+## User Experience Guidelines
+- Provide clear feedback on long-running operations
+- Use progress bars for operations with known steps
+- Use spinners for operations without known progress
+- Include appropriate spacing in console output
+- Add emoji indicators for status (✅, ⚠️, ❌)
+- Avoid noisy logs that don't provide value
 
 ## General Guidelines
 - Keep code clean and focused
 - Document key decisions
 - Update memory bank when architecture evolves
-- Prioritize modular, maintainable architecture 
+- Prioritize modular, maintainable architecture
+- Include proper error handling and reporting 
