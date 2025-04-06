@@ -1,0 +1,53 @@
+# Cursor Rules for MCP Agent Network
+
+## Project Patterns
+
+### Code Structure
+- Keep Python modules focused and minimal
+- Use clear namespaces for different components
+- Implement clean separation between layers
+- Follow modular design principles
+
+### Development Workflow
+- Set up foundation first, then build on top
+- Add MCP connection after foundation is ready
+- Use test-driven development for core features
+- Clean up test code after features are stable
+
+### Dependencies
+- Use UV for Python environment management
+- Only add necessary dependencies
+- Prefer standard library solutions when possible
+
+### Implementation Focus
+- Stay focused on core features
+- Avoid unnecessary side quests
+- Keep the architecture modular
+- Ensure each component has a clear purpose
+
+## Technology Stack Notes
+
+### MCP Technology
+- Fast-agent.ai is used for MCP client and connection
+- MCP servers sourced from glama and smithery
+- All agent communications follow MCP protocol standards
+
+### Upsonic Framework
+- Used for orchestration, workflows, memory, knowledge
+- Handles parallel tasks and complex graphs
+- Maximize feature utilization of Upsonic
+
+### Browser Automation
+- Playwright/browseruse for browser control
+- Browser-tools-mcp for MCP compatibility
+
+## Important Development Paths
+- foundation → MCP connection → features
+- Keep each layer complete before moving to the next
+- Maintain thorough testing throughout
+
+## General Guidelines
+- Keep code clean and focused
+- Document key decisions
+- Update memory bank when architecture evolves
+- Prioritize modular, maintainable architecture 
